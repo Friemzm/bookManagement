@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab24786a-c441-436a-9f71-bc310f7f42fe" name="Default Changelist" comment="" />
+    <list default="true" id="ab24786a-c441-436a-9f71-bc310f7f42fe" name="Default Changelist" comment="图书管理系统的第一次提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +31,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -177,8 +178,23 @@
       <workItem from="1673590394909" duration="7615000" />
       <workItem from="1673662048889" duration="5622000" />
       <workItem from="1673835083482" duration="216000" />
-      <workItem from="1712578977710" duration="958000" />
+      <workItem from="1712578977710" duration="1372000" />
     </task>
+    <task id="LOCAL-00001" summary="图书管理系统的第一次提交">
+      <created>1712580141037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712580141037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="图书管理系统的第一次提交">
+      <created>1712580159804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712580159804</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +210,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="图书管理系统的第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="图书管理系统的第一次提交" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
