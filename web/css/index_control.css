@@ -1,0 +1,182 @@
+
+body{
+    /* 浏览器宽度缩小到1200以下像素的时候，这个body不会再缩小，而浏览器就会产生滚动条*/
+    min-width: 1200px;
+}
+
+span{
+    font-size: 10px;
+}
+
+.login_out a:hover{
+    text-decoration: none;
+}
+
+/*头部导航条*/
+.ul_top{
+    /*将ul设置为弹性容器*/
+    display: flex;
+    /*向右浮动*/
+    float: right;
+    /*设置外边距*/
+    margin: 30px;
+    /*利用弹性盒对元素进行水平垂直双方向居中*/
+    justify-content: center;
+    align-items: center;
+}
+
+
+.next{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/*设置导航条*/
+.navbar-inverse{
+    height: 40px;
+    background-color: black;
+    /*    设置为弹性容器*/
+    display: flex;
+    /* 主轴的空间分配为居中 */
+    justify-content: center;
+    /*字体垂直设置为居中*/
+    align-items: center;
+}
+
+.nav_inner .next_a{
+    font-size: 15px;
+    /*设置字体加粗*/
+    font-weight: bold;
+    color: whitesmoke;
+    /*设置内边距*/
+    padding: 0 10px;
+}
+/*设置导航条动态样式*/
+.nav_inner .next_a:hover{
+    color: #eea236;
+}
+
+.set_color{
+    font-size: 15px;
+    /*设置字体加粗*/
+    font-weight: bold;
+    color: yellow;
+    /*设置内边距*/
+    padding: 0 10px;
+}
+
+/*设置搜索框行*/
+.sb_form{
+    height: 45px;
+    background-color: orange;
+}
+
+.form_inner{
+    padding-left: 740px;
+}
+
+.inner{
+    /*设置弹性盒，向右浮动*/
+    display: flex;
+    padding-top: 10px;
+}
+
+/*设置搜索字样*/
+.search{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/*设置搜索按钮*/
+.sub{
+    border: none;
+    background-color: rgb(127,211,0);
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*设置中间样式*/
+.page_center{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(255,255,255);
+    margin: auto;
+}
+
+/*设置注册块*/
+.regiest {
+    height: 80px;
+}
+
+/*设置注册字体样式*/
+.regiest span{
+    display: flex;
+    margin-left: 45%;
+    font-weight: bold;
+    line-height: 80px;
+    font-size: larger;
+
+}
+
+/*设置中间表单*/
+.center_form{
+    width: 600px;
+    padding-left: 200px;
+}
+
+/*设置提示字样*/
+.remidner{
+    font-size: small;
+    color: red;
+}
+/*设置字体向右对其*/
+.right{
+    text-align: right;
+}
+
+.line{
+    color: #c7c7c5;
+}
+
+/*设置提交按钮*/
+.agree_sub {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(180,215,109);
+}
+
+/*设置尾部*/
+.bottom_inner{
+    height: 47px;
+    margin-top: 20px;
+    background-color: rgb(239,239,239);
+}
+
+/*设置尾部图片*/
+.imges{
+    margin-left: 200px;
+}
+
+
+.bottom_text {
+
+    font-size: 12px;
+    margin-left: 100px;
+}
+
+.bottom_deep{
+    color: rgb(121, 121, 121);
+}
+/**
+表单提示样式
+ */
+
+.center_form form tr {
+    padding-bottom: 300px;
+}
